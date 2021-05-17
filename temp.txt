@@ -1,0 +1,71 @@
+
+#include <stdio.h>
+
+//Comments in C 
+//Single Line Comment
+/*
+    Multi 
+        Line 
+            Comment
+                                    */
+
+/*
+Simple C program to print Hello World
+
+#include <stdio.h>
+
+int main() {
+        printf("Hello World");
+        return 0;
+    }
+
+//in C every program starts from main function 
+
+*/
+
+int main() {
+        printf("Lets learn  C  Programmimg\n");
+        /*
+        Data Types in C
+        int ---- a whole number integer 
+        float ---- a number with a fractional part floating point,
+        double -- double-precision floating point value 
+        char ---- single character a, x, p etc
+
+        */
+
+        /*
+        Variables 
+        int a = 0; //this is how we can diclare variable and assign value to it Here int is data type a is variable name and 0 is value of a 
+        Constant -- values cant be changed 
+        types of constant 
+        integer constant  ---  1, 2, 4, 9, 19 
+        real constant  ---  20.2, 7.0, 200.92 
+        charactor constant  ---  a, c,, d, x, z 
+
+        //Defining Variables 
+        int a, b, c;
+        a = 1;
+        b = 2;
+        c = a + b;
+        
+        */
+
+        /*
+        printing output and taking input 
+        printf("int %d", 2); -- this is how we can print integers 
+        printf("real constant %f", 2.0); -- this is how we can print real constants 
+        printf("char %c", a);  -- this is how we can print char 
+        */
+        char a = 'a';
+        printf("char %s", a);
+
+
+
+
+        return 0; 
+    }
+
+
+
+
