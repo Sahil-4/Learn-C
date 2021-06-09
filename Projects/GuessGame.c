@@ -18,7 +18,7 @@ int main()
     Counts = 1;
     Points = 100;
     RandomNumber = randomIntGenerator();
-    printf("%d\n", RandomNumber); // for testing
+    // printf("%d\n", RandomNumber); // for testing
     do
     {
         printf("Enter Your Guessed Number : \n");

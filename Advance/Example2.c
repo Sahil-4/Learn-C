@@ -10,12 +10,6 @@ int main() {
 	int *arrPtr;
 	arrPtr = &Marks[0];
 	printf("%u\n", arrPtr);
-
-    // increase Arrays Elements Value 
-	printf("%d\n", Marks[0]);
-	Marks[0] += 2;
-	printf("%d\n", Marks[0]);
-	
 	return 0;
 }
 

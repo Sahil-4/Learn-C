@@ -32,8 +32,21 @@ int main() {
     
     // Printing arrays with Loops 
     for (int i = 0; i < 5; i++) {
-        printf("%d\n", Marks[i]);
+        // printf("%d\n", Marks[i]);
     }
+
+    // Multidimentional Arrays 
+    // 2 Dimentional Arrays 
+    // Syntax 
+    // Declaring and Assigning Values 
+    // Datatype VariableName[RowSize][ColumnSize] = {{Array1Element1, Array1Element2, Array1Element3}. {Array2Element1, Array2Element2, Array2Element3}};
+
+    // Accessing Values 
+    // VariableName[RowIndex][ColumnIndex];
+
+    // Example 
+    int HotelRooms[2][5] = {{0, 1, 2, 3, 4}, {0, 1, 2, 3, 4}}; // Declaring and Assigning Values 
+    printf("%d\n", HotelRooms[0][3]);
 
 	return 0;
 }
