@@ -1,2 +1,1 @@
-# cCup
-C Programming notes 
+#C Programming notes

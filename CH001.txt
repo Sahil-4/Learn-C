@@ -1,0 +1,94 @@
+Chapter 001 : Introduction to Programming 
+
+Programming : Giving Computer Instructions to perform some perticular task.
+
+Need of Programming : Computers can only understand only Binary Language (written in 0 and 1) so to interact with computer we use programming languages 
+
+
+Types of Programming Languages : 
+    1. Low Level Languages
+    2. High Level Languages
+
+1. Low Level Languages : 
+    Machine Oriented Languages 
+    Very Close to Hardware 
+    Depended on Hardware Architecture 
+    Faster Execution 
+    Some Languages : Machine Code, Assembly Language
+
+2. High Level Languages : 
+    Human readable 
+    Not Dependent on Hardware
+    Can run on different Machines without or with few changes 
+    Slow Execution then Low Level Languages 
+    Need to convert into Machine Code 
+    Some Languages : C, C++, Java, Python 
+
+
+Language Translator : Convert high level programming languages code into Machine code 
+
+Types of Translators : 
+    1. Assembler : Convert Assembly Language to Machine Code 
+    2. Compiler/Interpreter : Convert High Level Language Code to Machine Code 
+
+Difference between Compiler and Interpreter :
+
+1. Compiler : 
+    Convert Before Execution of Program 
+    convert whole code into Machine code at once 
+    Execution time is faster then Interpreter 
+    Create object code 
+    Does not require source code for later execution 
+    Error will be shown at last of conversion 
+
+2. Interpreter : 
+    Convert While Execution of Program 
+    Line by line convertion of code into Machine code 
+    Execution time is slower then Compiler 
+    No object code created 
+    Source code required for later execution 
+    Error will be shown line by line 
+
+
+C Language : General Purpose High Level Programming Language
+Created by : Dennis Ritchie in 1972 in Bell Lab 
+Usage : Create Operating System, Micro-services, Application, Programs, Games etc
+Other Features : 
+    Low level access to memory 
+    Faster then any other high programming languages 
+    Entendable language 
+    Statically typed 
+    procedural Oriented programming language(program is created with function)
+
+
+Structure of C Program (look into main.c for more understanding) :
+    "main" Function 
+    Preprocessor commands (#include <library.x>)
+    Functions (set of Instructions wrapped in curly braces)
+    Variables 
+    Statements & Expressions
+    Documentation (Comments section to tell about the program)
+    User defined functions 
+
+
+Execution of C Program : 
+    Source File ==> Preprocessor ==> Expended Code ==> Compiler ==> Assembly Code ==> Assembler ==> Object Code ==> Linker ==> executable Code ==> Loader ==> Execution 
+    
+    source code is sent to Preprocessor 
+    Preprocessor convert preprocessor directives into their respective values 
+    preprocessor generates an expanded source code 
+    Expanded source code is sent to compiler
+    compiler compiles and converts it into assembly code 
+    Assembly code is sent to assembler
+    assembler assembles the code and converts it into object code
+    Now a simple.obj file is generated 
+    The object code is sent to linker 
+    linker links it to the library such as header files 
+    Then it is converted into executable code 
+    A simple.exe file is generated 
+    The executable code is sent to loader 
+    loader loads it into memory and then it is executed
+    After execution output is sent to console 
+
+Now lets go to main.c to learn about basic Structure of a C Program 
+
