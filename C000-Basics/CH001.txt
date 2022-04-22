@@ -1,8 +1,8 @@
 Chapter 001 : Introduction to Programming 
 
-Programming : Giving Computer Instructions to perform some perticular task.
+Programming : Giving Computer Instructions to perform any perticular task.
 
-Need of Programming : Computers can only understand only Binary Language (written in 0 and 1) so to interact with computer we use programming languages 
+Need of Programming : Computers can only understand Binary Language (written in 0 and 1) so to interact with computer we use programming languages 
 
 
 Types of Programming Languages : 
@@ -25,7 +25,7 @@ Types of Programming Languages :
     Some Languages : C, C++, Java, Python 
 
 
-Language Translator : Convert high level programming languages code into Machine code 
+Language Translator : Convert high level programming languages code(Human Readable Instructions) into Machine code(Binary Code)
 
 Types of Translators : 
     1. Assembler : Convert Assembly Language to Machine Code 

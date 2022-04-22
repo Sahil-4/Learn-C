@@ -63,7 +63,7 @@ int main()
 
     // Secondary or Derived Datatypes :-
     // Array : collection of similar type of data
-    int Marks[] = {45, 85, 62, 47, 55};
+    int Marks[] = {45, 85, 62, 47, 55}; // array of integers 
 
     // Pointer : Stores memory address of a variable
     int *ptr = Marks;
@@ -74,7 +74,7 @@ int main()
     {
         int long imei;
         char model_name[20];
-        float android_version;
+        float os_version;
     };
 
     // Union : Store different types of variable in same memory

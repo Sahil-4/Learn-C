@@ -2,9 +2,8 @@
 /*
 Author : Sahil-4
 Date : December 31, 2021
-Description : In this code we will learn about Variables in C
-Prev Code : Datatypes.c
-Next Code : Conditionals.c
+Description : In this code we will learn about Operators in C
+Next Code : Operator-Precidence.c 
 */
 
 #include <stdio.h>
@@ -12,8 +11,7 @@ Next Code : Conditionals.c
 
 // Operator : a symbol that tells the compiler to perform some specific mathematical or logical operations
 
-int main()
-{
+int main() {
     int a = 2, b = 4;
     int sum = a + b; // here 'a' and 'b' are operands and '+' is addition operator
 
@@ -178,6 +176,28 @@ int main()
     // 0010 => 01 (01 in binary is 1)
 
     printf("%d\n", res);
+
+    // Misc operator : Miscellaneous operators used to 
+    int m;
+
+    // '?:' : ternary operator(operates on three operands) it is also an alternative for if-else condition) 
+    m = 1 > 2 ? 2 : 1; // if 1 is bigger then 2 then 2 is assigned else 1 
+    printf("%d \n", m);
+
+    // 'sizeof()' : Returns the size of a variable in integer 
+    printf("%d \n", sizeof(m)); // this will print the memory size of integer in our system 
+
+    // '&' : Returns the address of a variable 
+    printf("%p \n", &m); // this will print the address of integer variable 'm' 
+
+    // '*' : Pointer to a variable 
+    int *ptr = &m;
+    printf("%d \n", ptr);
+
+    // ',' : Comma operator used to excute multiple expressions and assign last expressions value 
+    m = (2, 3, 4, 5, 0); // using comma operator 
+    printf("%d", m); // this will print 0 as 0 is the last value in above (2, 3, 4, 5, 0) 
+    // we have to use parenthesis () to use comma as operator 
 
     return 0;
 }

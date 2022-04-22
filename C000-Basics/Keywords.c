@@ -2,15 +2,15 @@
 /*
 Author : Sahil-4
 Date : December 31, 2021
-Description : In this code we will learn about Variables in C
-Prev Code : Constants.c
-Next Code : Datatypes.c
+Description : In this code we will learn about Keywords and their usage
+Prev Code : main.c
+Next Code : Input.c
 */
 
 #include <stdio.h>
 
 // keywords : Basic building block for coding in C
-// identifier : Name of a variable or function
+// identifier : Name of a variable or function used to access or use a variable or function
 
 // keywords in C
 
@@ -18,7 +18,7 @@ Next Code : Datatypes.c
 int age = 0;
 
 // float : float keyword is used for declaring floating type variables
-float rate = 4.3f;
+float rating = 4.3f;
 
 // double : double keyword is also used for declaring floating type variables
 double volume = 0.3334;
@@ -32,42 +32,35 @@ const int Min_Req_Age = 12;
 // short, long, signed and unsigned : type modifiers that alter the meaning of a base data type to yield a new type.
 
 // void : The void keyword meaning nothing or no value and used to define function that return nothing
-void Greet()
-{
+void Greet() {
     printf("Good Morning\n");
 }
 
-int main()
-{
+void main() {
 
     // if, else : used to create deccison making statement
-    if (1 == 1)
-    {
+    if (1 == 1) {
         printf("1 is 1\n");
     }
-    else
-    {
+    else {
         printf("1 is not 1\n");
     }
 
     // for : used to create for loop
-    for (int i = 0; i < 3; i++)
-    {
+    for (int i = 0; i < 3; i++) {
         printf("%d\n", i);
     }
 
     // do, while : used to create do while loop
     int lap = 3;
-    do
-    {
+    do {
         printf("run %d\n", lap);
         lap--;
     } while (lap > 0);
 
     // switch, case, default : create swith statements
     char Light = 'R';
-    switch (Light)
-    {
+    switch (Light) {
     case 'G':
         printf("Go\n");
         break;
@@ -83,12 +76,10 @@ int main()
 
     // break : terminates the innermost loop immediately when it's encountered also used to terminate the switch statement
     // continue : skips the statements after it inside the loop for that iteration
-    for (int i = 1; i <= 10; ++i)
-    {
+    for (int i = 1; i <= 10; ++i) {
         if (i == 3)
             continue;
-        if (i == 7)
-        {
+        if (i == 7) {
             printf("\n");
             break;
         }
@@ -99,9 +90,9 @@ int main()
     printf("%d\n", sizeof(int));
 
     // goto : transfer control of the program to the specified label
-    for (int i = 0; i < 100; i++)
-    {
-        if (i == 73)
+    int password = 73;
+    for (int i = 0; i < 100; i++) {
+        if (i == password)
             goto success;
     }
     printf("i is not 10\n");
@@ -117,8 +108,7 @@ success:
     printf("%d\n", Students);
 
     // struct : used for declaring a structure A structure can hold variables of different types under a single name
-    struct Student
-    {
+    struct Student {
         int id;
         float grades;
         int age;
@@ -133,8 +123,7 @@ success:
     printf("Student id : %d and Age : %d has Grades : %.1f\n", Student1.id, Student1.age, Student1.grades);
 
     // union : used for grouping different types of variables under a single name
-    union car
-    {
+    union car {
         char name[50];
         int price;
     };
@@ -159,12 +148,11 @@ success:
     // static : used to creates a static variable its persists until the end of the program
     static int Key;
 
-    // extern : used to declare a global variable that is a variable without any memory assigned
+    // extern : used to declare a global variable that is a variable without any memory assigned 
 
     //  register : used to declare register variables
 
     // volatile : used for creating volatile objects
 
     // return : used to return some value from a function and terminate it
-    return 0;
 }

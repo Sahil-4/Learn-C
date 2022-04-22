@@ -2,14 +2,14 @@
 /*
 Author : Sahil-4
 Date : December 31, 2021 
-Description : In this code we will learn about Variables in C 
+Description : In this code we will learn about Constant Variables in C 
 Prev Code : Variables.c
-Next Code : Keywords.c
+Next Code : Datatypes.c
 */
 
 #include <stdio.h>
 
-// Constant : Constant are special Variables that can never be changed
+// Constant : Constant are special Variables we can not change their values 
 
 // Types of Constant :
 // 1. Integer constant : Decimal Constant(0-9 base10), Octal Constant(0-7 base8), Hexadecimal Constant(o-F base16)
@@ -29,15 +29,14 @@ Next Code : Keywords.c
 
 int main() {
     printf("%d\n", Min_Age);
+    printf("%c\n", FavChar);
 
     // Min_Age = 12; // trying to reassign constants value will give error
 
     // Another way to create constant
     const int Max_Age = 60;
-    // while using const keyword we have to specify data type explicitly
+    // while using const keyword we have to explicitly specify data type of variable 
     printf("%d\n", Max_Age);
-
-    printf("%c\n", FavChar);
 
     return 0;
 }

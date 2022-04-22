@@ -3,7 +3,6 @@
 Author : Sahil-4
 Date : December 31, 2021 
 Description : In this code we will learn about Variables in C 
-Prev Code : main.c
 Next Code : Constants.c
 */
 
@@ -11,7 +10,7 @@ Next Code : Constants.c
 
 int main() {
     // Variable : Named memory location or Value Container 
-    // Variables are used to store memory address of some data 
+    // Variables are used to store data in memory 
 
     // Syntax for declaring a Variable 
     // Datatype VariableName;
@@ -25,9 +24,10 @@ int main() {
     // Example 1 
     int num; // Declaration of variable 
     // above int (integer) is data type of variable and num is name of our variable 
-    num = 3; // assigning value variable to variable 
+    num = 3; // assigning value to variable 
     // in above line num is variable name and 3 is its value 
     printf("%d\n", num); // printing output to the console 
+    // in above line %d is format specifier used to interact with integer datatype objects 
 
     // Example 2 
     char favLetter = 'A'; // Declaration and assignment of variable in one line 
