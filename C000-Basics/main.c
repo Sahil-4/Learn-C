@@ -1,12 +1,4 @@
 
-/*
-Author : Sahil-4
-Date : December 31, 2021
-Description : In this code we will learn basic structure of C Program
-Prev File : CH001.txt
-Next File : Keywords.c
-*/
-
 #include <stdio.h> // Preprocessor command to include Standard Input Output library
 
 // below is main function
@@ -18,7 +10,7 @@ int main() {
 }
 
 // How to execute or run this code :
-// make sure you have gcc compiler installed
+// make sure you have gcc compiler installed 
 // save main.c (Program file)
 // open terminal in same directory where you have stored your .c file
 // execute this command to compile your program => gcc filename.c -o filename

@@ -1,11 +1,4 @@
 
-/*
-Author : Sahil-4
-Date : December 31, 2021 
-Description : In this code we will learn about Variables in C 
-Next Code : Constants.c
-*/
-
 #include <stdio.h>
 
 int main() {

@@ -1,22 +1,20 @@
 
-/*
-Author : Sahil-4
-Date : December 31, 2021
-Description : In this code we will learn about Arrays in C
-*/
-
+#include <stdio.h>
+#include <conio.h>
 #include <stdio.h>
 
-// Arrays : Array is collection of similar types of elements stored at contiguous memory location 
 
-// Syntax
-// Declare Array Variable 
-// Datatype VariableName[SizeOfVariable];
+// Arrays : Array is collection of similar types of data element stored at contiguous memory location 
 
-// Assign Values 
+
+// Syntax 
+// Declare Array Variable => 
+// Datatype VariableName[SizeOfArray];
+
+// Assign Values => 
 // VariableName[Index] = Value;
 
-// Another way to Declare and Assign Value to Array 
+// Another way to Declare and Assign Value to Array => 
 // Datatype VariableName[Size] = {Value1, Value2, ValueN};
 // Here Size is optional but Recommended 
 

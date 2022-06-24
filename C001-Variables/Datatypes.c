@@ -1,10 +1,3 @@
-/*
-Author : Sahil-4
-Date : December 31, 2021
-Description : In this code we will learn about Variables in C
-Prev Code : Keywords.c
-Next Code : Operators.c
-*/
 
 #include <stdio.h>
 
@@ -12,8 +5,7 @@ Next Code : Operators.c
 
 // Primary Datatypes :-
 // void : nothing
-void Greet()
-{
+void Greet() {
     // this is a void fuction that returns nothing
     printf("Good Morning");
 }
@@ -48,8 +40,7 @@ double PI = 3.142857142857143;
 // %o -- Octal
 // %x %X -- Hexadecimal
 
-int main()
-{
+int main() {
     // find Memory size of int data type
     printf("Size of an Integer Variable on this system is : %d \n", sizeof(int)); // Method sizeof(datatype-keyword) will return memory size as integer
 
@@ -70,24 +61,21 @@ int main()
     printf("%p\n", ptr);
 
     // Structure : Group of different types of variables
-    struct Smartphone
-    {
+    struct Smartphone {
         int long imei;
         char model_name[20];
         float os_version;
     };
 
     // Union : Store different types of variable in same memory
-    union car
-    {
+    union car {
         char name[30];
         int short max_speed;
     };
 
     // User-defined Datatypes :-
     // Enum or Enumeration Datatype : used to declare the variables that consists of integral constants
-    enum fruits
-    {
+    enum fruits {
         Apples = 2,
         Mangoes = 1
     };

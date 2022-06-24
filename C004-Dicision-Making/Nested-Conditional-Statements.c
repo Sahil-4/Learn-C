@@ -1,11 +1,4 @@
 
-/*
-Author : Sahil-4
-Date : December 31, 2021
-Description : In this code we will learn about Conditionals in C
-Next Code : Conditional.c 
-*/
-
 #include <stdio.h>
 
 int main() {
@@ -20,10 +13,14 @@ int main() {
             // this will be executed for age less then 60 
             printf("welcome\n");
         }
-    } else { // this will be checked if age is not above then 18 
-        // this will be executed if age is less then 18 
+    } else { // this black will be executed if age is not above then 18 
         printf("not an adult\n");
     }
+
+
+    int a = 12, b = 46, c = 4;
+    int biggest_int = a > b ? (a > c ? a : c) : (b > c ? b : c);
+    printf("%d\n", biggest_int);
 
     return 0;
 }

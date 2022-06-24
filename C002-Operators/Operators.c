@@ -1,15 +1,7 @@
 
-/*
-Author : Sahil-4
-Date : December 31, 2021
-Description : In this code we will learn about Operators in C
-Next Code : Operator-Precidence.c 
-*/
-
 #include <stdio.h>
-#include <conio.h>
 
-// Operator : a symbol that tells the compiler to perform some specific mathematical or logical operations
+// Operator : a symbol that tells the compiler to perform some specific mathematical or logical operations 
 
 int main() {
     int a = 2, b = 4;
@@ -25,7 +17,8 @@ int main() {
             6. Misc Operators
      */
 
-    // Arithmetic Operators : ( '+', '-', '*', '/', '%' )
+
+    // Arithmetic Operators : ( '+', '-', '*', '/', '%' ) : 
     // '+' Addition operator : used to add two operands
     printf("53 + 21 = %d\n", 53 + 21);
 
@@ -40,6 +33,7 @@ int main() {
 
     // '%' Modulous operator : Used to get remainder after an integer division
     printf("33 %c 10 = %d\n", '%', 33 % 10);
+
 
     // '++'	Increment operator : increases the integer value by one
     // post increament : first use the value then increament it by one
@@ -62,6 +56,7 @@ int main() {
     printf("%d\n", --val);
     printf("%d\n", val);
 
+
     // Relational Operators : ('==', '!=', '>', '<', '>=', '<=') returns 1 if true or 0 if false
     // '=='	Equal to
     printf("%d\n", 2 == 2);
@@ -81,9 +76,9 @@ int main() {
     // '<='	Less than or equal to
     printf("%d\n", 2 >= 5);
 
+
     // Assignment Operators : ('+=', '-=', '*=', '/=', '%=') Assign right operand to left operand
     val = 0;
-
     printf("%d\n", val);
 
     // '+=' : Addition and Assignment Operator
@@ -106,6 +101,7 @@ int main() {
     val %= 3; // val = val % 3 = 1
     printf("%d\n", val);
 
+
     // Logical Operators : ('&&', '||', '!') used on more then one expressions
     // '&&' : Logical and return 1 if both expressions are true
     printf("%d\n", 2 < 5 && 12 >= 2);
@@ -123,6 +119,7 @@ int main() {
     printf("%d\n", !1);
     printf("%d\n", !0);
 
+
     // Bitwise Operators : perform operation on bits can only be worked on integers
     int res;
     // '&' : Bitwise and operator
@@ -138,7 +135,7 @@ int main() {
 
     // '|' : Bitwise or operator
     /*
-    Bitwise and table :
+    Bitwise or table :
     0   |   0   =   0
     0   |   1   =   1
     1   |   1   =   1
@@ -149,7 +146,7 @@ int main() {
 
     // '^' : Bitwise xor operator
     /*
-    xor table :
+    Bitwise xor table :
     0   ^   0   =   0
     0   ^   1   =   1
     1   ^   1   =   0
@@ -157,6 +154,7 @@ int main() {
     */
     res = 4 ^ 3; // in binary 4 = 0100, 3 = 0011    0100 ^ 0011 = 0000
     printf("%d\n", res);
+
 
     // '<<' : Bitwise left shift operator : left shift left operand bits by right operand
     res = 4 << 3; // in binary 4 = 0100
@@ -170,12 +168,14 @@ int main() {
     // |0|0|0|0|0|1|1|1| => |0|0|0|0|0|0|0|1| ( 00000001 in decimal : 1 )
     printf("%d\n", res);
 
+
     // '~' : Bitwise not : return invert all bits ( 0 => 1 | 1 => 0 )
     res = ~5; // 2 in Decimal : 10
     // inverting all bits
     // 0010 => 01 (01 in binary is 1)
 
     printf("%d\n", res);
+
 
     // Misc operator : Miscellaneous operators used to 
     int m;
@@ -184,17 +184,17 @@ int main() {
     m = 1 > 2 ? 2 : 1; // if 1 is bigger then 2 then 2 is assigned else 1 
     printf("%d \n", m);
 
-    // 'sizeof()' : Returns the size of a variable in integer 
+    // 'sizeof()' : Size of Operator : Returns the size of a variable in integer 
     printf("%d \n", sizeof(m)); // this will print the memory size of integer in our system 
 
-    // '&' : Returns the address of a variable 
+    // '&' : Address of Operator : Returns the address of a variable 
     printf("%p \n", &m); // this will print the address of integer variable 'm' 
 
     // '*' : Pointer to a variable 
     int *ptr = &m;
     printf("%d \n", ptr);
 
-    // ',' : Comma operator used to excute multiple expressions and assign last expressions value 
+    // ',' : Comma operator : used to excute multiple expressions and assign last expressions value 
     m = (2, 3, 4, 5, 0); // using comma operator 
     printf("%d", m); // this will print 0 as 0 is the last value in above (2, 3, 4, 5, 0) 
     // we have to use parenthesis () to use comma as operator 

@@ -1,18 +1,10 @@
 
-/*
-Author : Sahil-4
-Date : December 31, 2021
-Description : In this code we will learn about Keywords and their usage
-Prev Code : main.c
-Next Code : Input.c
-*/
-
 #include <stdio.h>
 
-// keywords : Basic building block for coding in C
+// keywords : Basic building block for coding 
 // identifier : Name of a variable or function used to access or use a variable or function
 
-// keywords in C
+// keywords in C (Total : 32)
 
 // int : int keyword is used to declare integer type variables
 int age = 0;
@@ -51,7 +43,7 @@ void main() {
         printf("%d\n", i);
     }
 
-    // do, while : used to create do while loop
+    // do, while : used to create do while loop 
     int lap = 3;
     do {
         printf("run %d\n", lap);
