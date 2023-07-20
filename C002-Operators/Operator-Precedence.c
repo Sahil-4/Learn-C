@@ -7,9 +7,10 @@ int main() {
     // Operator Associativity : tells about which operator will execute first if we have multiple same operators
 
     /*
-        Operator Precedence Chart :
+        Operator Precedence Chart (High to Low) :
 
             Operator                Meaning of operator                 Associativity
+
             ()                      Functional call	                    Left to right
             []                      Array element reference             Left to right
             ->                      Indirect member selection           Left to right
