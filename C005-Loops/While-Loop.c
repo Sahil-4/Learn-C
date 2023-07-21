@@ -3,7 +3,7 @@
 
 int main() {
 
-    /* 2. While Loop syntax => 
+    /* While Loop syntax => 
     while (testExpression) {
         // the body of the loop 
     }
@@ -32,6 +32,7 @@ int main() {
 
     while(i <= 100) {
         printf("%d\n", i);
+
         // this loop will exit if value of i will be 34
         if (i == 32) {
             break;
