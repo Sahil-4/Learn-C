@@ -3,7 +3,7 @@
 
 int main() {
 
-    /* 1. For Loop syntax => 
+    /* For Loop syntax => 
     for (initializationStatement; testExpression; updateStatement) {
         // statements inside the body of loop
     }
@@ -14,10 +14,10 @@ int main() {
     // Then, the test expression is evaluated. 
     // If the test expression is evaluated to false, the for loop is terminated 
     // However, if the test expression is evaluated to true, 
-    // statements inside the body of the for loop are executed, and the update Statement is updated 
+    // statements inside the body of the for loop are executed, and the update Statement is executed 
     // Again the test expression is evaluated 
-    // This process goes on until the test expression is false. 
-    // When the test expression is false, the loop terminates 
+    // This process goes on until the test expression becomes false. 
+    // When the test expression becomes false, the loop terminates 
 
 
     // Example : 
