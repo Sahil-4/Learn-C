@@ -1,10 +1,9 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <stdio.h>
 
 
-// Arrays : Array is collection of similar types of data element stored at contiguous memory location 
+// Arrays : Array is a data structure used to store collection of similar types of data element at contiguous memory location 
 
 
 // Syntax 
@@ -24,30 +23,32 @@
 
 int main() {
 	// Example 
-    // int Marks[5];// Declaring Array Variable of Type int to store marks of 5 
+    // int Marks[5]; // Declaring Array Variable of Type int to store marks of 5 
     // Marks[0] = 43; // Assigning Value at Index 0 
     // Array Index Starts from 0 
 
     int Marks[5] = {17, 36, 29, 50, 42};
 
     printf("%d", Marks[0]); // printing Value Stored at Index 0 
-    
+
     // Printing arrays with Loops 
     for (int i = 0; i < 5; i++) {
         printf("%d\n", Marks[i]);
     }
 
     // assigning values to array with for loop 
-    int size_of_array = 6;
-    int nums[size_of_array];
-    for (int i = 0; i < size_of_array; i++) {
+    int nums[6];
+    for (int i = 0; i < sizeof(nums)/sizeof(int); i++) {
+        printf("Enter value for index %d : ", i);
         scanf("%d", &nums[i]);
     }
-    
+
     // Printing arrays with Loops 
-    for (int i = 0; i < size_of_array; i++) {
+    for (int i = 0; i < sizeof(nums)/sizeof(int); i++) {
+        printf("Value at index %d is : ", i);
         printf("%d\n", nums[i]);
     }
-    
+
+
 	return 0;
 }
