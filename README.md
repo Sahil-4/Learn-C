@@ -46,6 +46,8 @@
 ### C007-Strings
 
 1. [Strings.c](C007-Strings/Strings.c)
+2. [Strings-Functions.c](C007-Strings/Strings-Functions.c)
+3. [Exercise.c](C007-Strings/Exercise.c)
 
 ### C008-Function
 
