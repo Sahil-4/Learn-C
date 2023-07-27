@@ -6,53 +6,55 @@
 
 1. [CH001.txt](C000-Basics/CH001.txt)
 2. [main.c](C000-Basics/main.c)
-3. [Keywords.c](C000-Basics/Keywords.c)
-4. [Input-and-Output.c](C000-Basics/Input-and-Output.c)
-5. [Exercise.c](C000-Basics/Exercise.c)
+3. [keywords.c](C000-Basics/keywords.c)
+4. [input_and_output.c](C000-Basics/input_and_output.c)
+5. [exercise.c](C000-Basics/exercise.c)
 
 ### C001-Variables
 
-1. [Variables.c](C001-Variables/Variables.c)
-2. [Constants.c](C001-Variables/Constants.c)
-3. [Datatypes.c](C001-Variables/Datatypes.c)
-4. [Exercise.c](C001-Variables/Exercise.c)
+1. [variables.c](C001-Variables/variables.c)
+2. [constants.c](C001-Variables/constants.c)
+3. [datatypes.c](C001-Variables/datatypes.c)
+4. [exercise.c](C001-Variables/exercise.c)
 
 ### C002-Operators
 
-1. [Operators.c](C002-Operators/Operators.c)
-2. [Operator-Precedence.c](C002-Operators/Operator-Precedence.c)
-3. [Exercise.c](C002-Operators/Exercise.c)
+1. [operators.c](C002-Operators/operators.c)
+2. [operator_precedence.c](C002-Operators/operator_precedence.c)
+3. [exercise.c](C002-Operators/exercise.c)
 
-### C004-Dicision-Making
+### C004-Decision-Making
 
-1. [Conditionals.c](C004-Dicision-Making/Conditionals.c)
-2. [Nested-Conditional-Statements.c](C004-Dicision-Making/Nested-Conditional-Statements.c)
-3. [Exercise.c](C004-Dicision-Making/Exercise.c)
+1. [conditionals.c](C004-Decision-Making/conditionals.c)
+2. [nested_conditional_statements.c](C004-Decision-Making/nested_conditional_statements.c)
+3. [exercise.c](C004-Decision-Making/exercise.c)
 
 ### C005-Loops
 
-1. [Loops.c](C005-Loops/Loops.c)
-1. [For-Loop.c](C005-Loops/For-Loop.c)
-1. [While-Loop.c](C005-Loops/While-Loop.c)
-1. [Do-While-Loop.c](C005-Loops/Do-While-Loop.c)
-1. [Exercise.c](C005-Loops/Exercise.c)
+1. [loops.c](C005-Loops/loops.c)
+2. [for_loop.c](C005-Loops/for_loop.c)
+3. [while_loop.c](C005-Loops/while_loop.c)
+4. [do_while_loop.c](C005-Loops/do_while_loop.c)
+5. [nested_loops.c](C005-Loops/nested_loops.c)
+6. [exercise.c](C005-Loops/exercise.c)
 
 ### C006-Arrays
 
-1. [Arrays.c](C006-Arrays/Arrays.c)
-2. [Example1.c](C006-Arrays/Example1.c)
-3. [Multidimentional-Arrays.c](C006-Arrays/Multidimentional-Arrays.c)
+1. [arrays.c](C006-Arrays/arrays.c)
+2. [multidimensional_arrays.c](C006-Arrays/multidimentional_arrays.c)
+3. [exercise.c](C006-Arrays/exercise.c)
 
 ### C007-Strings
 
-1. [Strings.c](C007-Strings/Strings.c)
-2. [Strings-Functions.c](C007-Strings/Strings-Functions.c)
-3. [Exercise.c](C007-Strings/Exercise.c)
+1. [strings.c](C007-Strings/strings.c)
+2. [strings_functions.c](C007-Strings/strings_functions.c)
+3. [exercise.c](C007-Strings/exercise.c)
 
 ### C008-Function
 
-1. [Recursion.c](C008-Function/Recursion.c)
-2. [functions.c](C008-Function/functions.c)
+1. [functions.c](C008-Function/functions.c)
+2. [recursion.c](C008-Function/recursion.c)
+3. [exercise.c](C008-Function/exercise.c)
 
 ### C009-Pointers
 
@@ -72,7 +74,7 @@
 
 ### C013-Dynamic-Memory-Allocation
 
-### Pattern
+### Patterns
 
 ### Exercise
 
@@ -100,4 +102,41 @@
 ### Projects
 
 1. [GuessGame.c](Projects/GuessGame.c)
-2. [delt.c](Projects/delt.c)
+
+
+
+# Welcome Contributors to our C Programming Notes Project! 🎉
+
+Thank you for visiting our C Programming notes project! We firmly believe that learning and sharing knowledge is a collaborative and inclusive journey. Whether you're a seasoned C programmer or just starting out, we invite you to be a part of this exciting endeavor.
+
+## Why Contribute?
+
+- **Share Your Insights** : If you have valuable insights, tips, or tricks related to C programming, your contributions can make a real difference in someone's learning journey.
+
+- **Fix Errors and Improve**:  Found a mistake or want to improve existing content? Your keen eye for detail and passion for quality can help enhance the overall project.
+
+- **Add New Content** : Have an idea for new topics or examples? We welcome fresh content that expands the coverage of C language concepts.
+
+- **Help Fellow Learners** : Your contributions can impact learners around the world, making their learning experience more enjoyable and effective.
+
+## How to Contribute?
+
+1. **Fork the Repository** :  Start by forking this repository to your GitHub account.
+
+2. **Clone the Repository**  : Clone the forked repository to your local machine using `git clone git@github.com:Sahil-4/Learn-C.git`.
+
+3. **Make Changes**:   Create a new branch and make your desired changes in the project.
+
+4. **Test Your Changes** : Test the changes thoroughly to ensure everything works as expected.
+
+5. **Commit and Push** : Commit your changes and push them to your forked repository.
+
+6. **Create a Pull Request** : Open a pull request (PR) from your branch to the main project repository. Provide a clear description of your changes and why they should be included.
+
+7. **Review and Merge** : We will review your PR, provide feedback if needed, and once approved, your changes will be merged into the main project.
+
+## Let's Learn and Grow Together!
+
+Learning C programming is an enriching experience, and with your help, we can build a comprehensive resource that benefits learners of all levels. Together, let's make C programming more accessible and enjoyable for everyone.
+
+Happy coding! 🚀

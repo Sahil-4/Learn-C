@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 
-// Recursion : A function calling itself.
-// Example : factorial of N and Fibonacci series.
-
+// Recursive Functions : Functions that call themselves.
 
 // Factorial Function : Calculates the factorial of a non-negative integer N.
 unsigned long long factorial(int N) {
@@ -42,7 +40,7 @@ unsigned long long fibonacci(int N) {
 }
 
 // Memoization for Fibonacci : Caching previously computed Fibonacci results.
-unsigned long long fibonacciMemoization(int N, unsigned long long* memo) {
+unsigned long long fibonacciMemoization(int N, unsigned long long *memo) {
     if (N < 0) {
         return 0; // Negative numbers have no Fibonacci.
     }
@@ -60,32 +58,35 @@ unsigned long long fibonacciMemoization(int N, unsigned long long* memo) {
 
 
 int main() {
-    // Example : Calculate factorial of 5
+    // Examples :
+    
+    // Calculate factorial of 5
     int factorialOf5 = factorial(5);
     printf("Factorial of 5 : %llu\n", factorialOf5);
 
-    // Example : Calculate factorial of 5 using tail-recursive version
+    // Calculate factorial of 5 using the tail-recursive version
     unsigned long long tailRecursiveFactorialOf5 = tailRecursiveFactorial(5, 1);
     printf("Tail-Recursive Factorial of 5 : %llu\n", tailRecursiveFactorialOf5);
 
-    // Example : Find factorial of numbers from 0 to 10
+    // Find factorial of numbers from 0 to 10
     printf("Factorials of 0 to 10 :\n");
     for (int i = 0; i <= 10; i++) {
         printf("Factorial of %d : %llu\n", i, factorial(i));
     }
 
-    // Example : Generate Fibonacci series for the first 10 numbers
+    // Generate Fibonacci series for the first 10 numbers
     printf("Fibonacci series for the first 10 numbers :\n");
     for (int i = 0; i < 10; i++) {
         printf("Fibonacci(%d) : %llu\n", i, fibonacci(i));
     }
 
-    // Example : Generate Fibonacci series for the first 10 numbers using memoization
+    // Generate Fibonacci series for the first 10 numbers using memoization
     unsigned long long memo[11] = {0}; // Array to store Fibonacci results
     printf("Fibonacci series using memoization for the first 10 numbers :\n");
     for (int i = 0; i < 10; i++) {
         printf("Fibonacci(%d) : %llu\n", i, fibonacciMemoization(i, memo));
     }
+
 
     return 0;
 }

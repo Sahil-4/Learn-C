@@ -1,14 +1,13 @@
 
 #include <stdio.h>
 
-int main() {
 
+int main() {
     // Operator Precedence : tells about which operator will execute first
     // Operator Associativity : tells about which operator will execute first if we have multiple same operators
 
     /*
-        Operator Precedence Chart (High to Low) :
-
+        Operator Precedence (High to Low) :
             Operator                Meaning of operator                 Associativity
 
             ()                      Functional call	                    Left to right
@@ -68,11 +67,13 @@ int main() {
             ,                       Seperator                           Left to Right
     */
 
+
     float val = 10 * 4 / 5;
     val = 10 / 5 * 4;
     val = 10 * 4 / 5 + 2;
 
     printf("%0.2f", val);
+
 
     return 0;
 }
