@@ -1,94 +1,85 @@
-Chapter 001 : Introduction to Programming 
+Chapter 001 : Introduction to Programming
 
-Programming : Giving Computer Instructions to perform any perticular task.
+Programming : Giving computer instructions to perform a particular task.
 
-Need of Programming : Computers can only understand Binary Language (written in 0 and 1) so to interact with computer we use programming languages 
+Need for Programming : Computers can only understand Binary Language (written in 0 and 1), so to interact with a computer, we use programming languages.
 
+Types of Programming Languages :
+1. Low-Level Languages :
+   - Machine-Oriented Languages
+   - Very close to Hardware
+   - Dependent on Hardware Architecture
+   - Faster Execution
+   - Some Languages : Machine Code, Assembly Language
 
-Types of Programming Languages : 
-    1. Low Level Languages
-    2. High Level Languages
+2. High-Level Languages :
+   - Human-readable
+   - Not Dependent on Hardware
+   - Can run on different Machines without or with few changes
+   - Slower Execution than Low-Level Languages
+   - Need to convert into Machine Code
+   - Some Languages : C, C++, Java, Python
 
-1. Low Level Languages : 
-    Machine Oriented Languages 
-    Very Close to Hardware 
-    Depended on Hardware Architecture 
-    Faster Execution 
-    Some Languages : Machine Code, Assembly Language
+Language Translator : Converts high-level programming languages code (Human-Readable Instructions) into Machine Code (Binary Code).
 
-2. High Level Languages : 
-    Human readable 
-    Not Dependent on Hardware
-    Can run on different Machines without or with few changes 
-    Slow Execution then Low Level Languages 
-    Need to convert into Machine Code 
-    Some Languages : C, C++, Java, Python 
-
-
-Language Translator : Convert high level programming languages code(Human Readable Instructions) into Machine code(Binary Code)
-
-Types of Translators : 
-    1. Assembler : Convert Assembly Language to Machine Code 
-    2. Compiler/Interpreter : Convert High Level Language Code to Machine Code 
+Types of Translators :
+1. Assembler : Converts Assembly Language to Machine Code.
+2. Compiler/Interpreter : Converts High-Level Language Code to Machine Code.
 
 Difference between Compiler and Interpreter :
 
-1. Compiler : 
-    Convert Before Execution of Program 
-    convert whole code into Machine code at once 
-    Execution time is faster then Interpreter 
-    Create object code 
-    Does not require source code for later execution 
-    Error will be shown at last of conversion 
+1. Compiler :
+   - Converts before Execution of Program
+   - Converts the whole code into Machine Code at once
+   - Execution time is faster than Interpreter
+   - Creates object code
+   - Does not require source code for later execution
+   - Error will be shown at the last of conversion
 
-2. Interpreter : 
-    Convert While Execution of Program 
-    Line by line convertion of code into Machine code 
-    Execution time is slower then Compiler 
-    No object code created 
-    Source code required for later execution 
-    Error will be shown line by line 
+2. Interpreter :
+   - Converts while Execution of Program
+   - Line by line conversion of code into Machine Code
+   - Execution time is slower than Compiler
+   - No object code created
+   - Source code required for later execution
+   - Error will be shown line by line
 
-
-C Language : General Purpose High Level Programming Language
+C Language : General-Purpose High-Level Programming Language
 Created by : Dennis Ritchie in 1972 at Bell Laboratories
-Usage : Create Operating System, Micro-services, Application, Programs, Games etc
-Other Features : 
-    1. Low level access to memory 
-    2. Faster then any other high programming languages 
-    3. Entendable language 
-    4. Statically typed 
-    5. procedural Oriented programming language(program is created with function)
-
+Usage : Creating Operating Systems, Micro-services, Applications, Programs, Games, etc.
+Other Features :
+   1. Low-level access to memory
+   2. Faster than many other high-level programming languages
+   3. Extendable language
+   4. Statically typed
+   5. Procedural Oriented Programming Language (program is created with functions)
 
 Structure of C Program (look into main.c for more understanding) :
-    "main" Function (Entry point of any C program)
-    Preprocessor Commands (#include <library.x>) 
-    Functions (set of Instructions wrapped in curly braces)
-    Variables (used to store data in memory)
-    Statements & Expressions 
-    Documentation (Comments section to tell about the program)
-    User Defined Functions 
+   - "main" Function (Entry point of any C program)
+   - Preprocessor Commands (#include <library.x>)
+   - Functions (set of Instructions wrapped in curly braces)
+   - Variables (used to store data in memory)
+   - Statements & Expressions
+   - Documentation (Comments section to describe the program)
+   - User-Defined Functions
 
+Execution of C Program :
+   Source File ⇒ Preprocessor ⇒ Expanded Code ⇒ Compiler ⇒ Assembly Code ⇒ Assembler ⇒ Object Code ⇒ Linker ⇒ Executable Code ⇒ Loader ⇒ Execution
 
-Execution of C Program : 
-    Source File ==> Preprocessor ==> Expended Code ==> Compiler ==> Assembly Code ==> Assembler ==> Object Code ==> Linker ==> executable Code ==> Loader ==> Execution 
-    
-    source code is sent to Preprocessor 
-    Preprocessor convert preprocessor directives into their respective values 
-    preprocessor generates an expanded source code 
-    Expanded source code is sent to compiler
-    compiler compiles and converts it into assembly code 
-    Assembly code is sent to assembler
-    assembler assembles the code and converts it into object code
-    Now a .obj file is generated 
-    The object code is sent to linker 
-    linker links it to the library such as header files 
-    Then it is converted into executable code 
-    A .exe file is generated 
-    The executable code is sent to loader 
-    loader loads it into memory and then it is executed
-    After execution output is sent to console 
+   - The source code is sent to the Preprocessor.
+   - The Preprocessor converts preprocessor directives into their respective values.
+   - The Preprocessor generates an expanded source code.
+   - The expanded source code is sent to the compiler.
+   - The compiler compiles and converts it into assembly code.
+   - The assembly code is sent to the assembler.
+   - The assembler assembles the code and converts it into object code.
+   - A .obj file is generated.
+   - The object code is sent to the linker.
+   - The linker links it to the library, such as header files.
+   - It is then converted into executable code.
+   - A .exe file is generated.
+   - The executable code is sent to the loader.
+   - The loader loads it into memory, and then it is executed.
+   - After execution, the output is sent to the console.
 
-Now lets go to main.c to learn about basic Structure of a C Program 
-
+Now let's move on to main.c to learn about the basic structure of a C program.

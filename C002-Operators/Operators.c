@@ -1,203 +1,112 @@
 
 #include <stdio.h>
 
-// Operator : a symbol that tells the compiler to perform some specific mathematical or logical operations 
+
+// Operator: A symbol that tells the compiler to perform specific mathematical or logical operations.
+
 
 int main() {
+    // Arithmetic Operators: '+', '-', '*', '/', '%'
     int a = 2, b = 4;
-    int sum = a + b; // here 'a' and 'b' are operands and '+' is addition operator
+    int sum = a + b; // Addition operator: adds 'a' and 'b' and stores the result in 'sum'
+    int difference = a - b; // Subtraction operator: subtracts 'b' from 'a'
+    int product = a * b; // Multiplication operator: multiplies 'a' and 'b'
+    int quotient = a / b; // Division operator: divides 'a' by 'b' and truncates the result to an integer
+    int remainder = a % b; // Modulus operator: calculates the remainder when 'a' is divided by 'b'
 
-    /*
-        Types of operator :
-            1. Arithmetic Operators
-            2. Relational Operators
-            3. Assignment Operators
-            4. Logical Operators
-            5. Bitwise Operators
-            6. Misc Operators
-     */
-
-
-    // Arithmetic Operators : ( '+', '-', '*', '/', '%' ) : 
-    // '+' Addition operator : used to add two operands
-    printf("53 + 21 = %d\n", 53 + 21);
-
-    // '−' Subtraction operator : Subtracts second operand from the first
-    printf("55 - 12 = %d\n", 55 - 12);
-
-    // '*' Multiplication operator : Multiplies both operands
-    printf("12 * 21 = %d\n", 12 * 21);
-
-    // '/' Divides numerator by de - numerator.
-    printf("33 / 11 = %d\n", 33 / 11);
-
-    // '%' Modulous operator : Used to get remainder after an integer division
-    printf("33 %c 10 = %d\n", '%', 33 % 10);
+    printf("Sum: %d\n", sum);
+    printf("Difference: %d\n", difference);
+    printf("Product: %d\n", product);
+    printf("Quotient: %d\n", quotient);
+    printf("Remainder: %d\n", remainder);
 
 
-    // '++'	Increment operator : increases the integer value by one
-    // post increament : first use the value then increament it by one
-    int val;
-    val = 0;
-    printf("%d\n", val++);
-    printf("%d\n", val);
+    // Increment and Decrement Operators: '++', '--'
+    int val = 5;
+    printf("Initial Value: %d\n", val);
+    printf("Post-Increment: %d\n", val++); // Post-increment: returns the value before increment
+    printf("Updated Value (Post-Increment): %d\n", val);
+    printf("Pre-Increment: %d\n", ++val); // Pre-increment: returns the value after increment
+    printf("Updated Value (Pre-Increment): %d\n", val);
 
-    // pre increament : first increament value by one then use the value
-    printf("%d\n", ++val);
-    printf("%d\n", val);
-
-    // '--'	Decrement operator : decreases the integer value by one
-    // post decrement : first use the value then decrement it by one
-    val = 0;
-    printf("%d\n", val--);
-    printf("%d\n", val);
-
-    // pre decrement : first decrement value by one then use the value
-    printf("%d\n", --val);
-    printf("%d\n", val);
+    printf("Post-Decrement: %d\n", val--); // Post-decrement: returns the value before decrement
+    printf("Updated Value (Post-Decrement): %d\n", val);
+    printf("Pre-Decrement: %d\n", --val); // Pre-decrement: returns the value after decrement
+    printf("Updated Value (Pre-Decrement): %d\n", val);
 
 
-    // Relational Operators : ('==', '!=', '>', '<', '>=', '<=') returns 1 if true or 0 if false
-    // '=='	Equal to
-    printf("%d\n", 2 == 2);
-
-    // '!='	Not equal to
-    printf("%d\n", 2 != 2);
-
-    // '>'	Greater than
-    printf("%d\n", 2 < 3);
-
-    // '<'	Less than
-    printf("%d\n", 2 > 2);
-
-    // '>='	Greater than or equal to
-    printf("%d\n", 2 <= 2);
-
-    // '<='	Less than or equal to
-    printf("%d\n", 2 >= 5);
+    // Relational Operators: '==', '!=', '>', '<', '>=', '<='
+    printf("Is 'a' equal to 'b'? %d\n", a == b);
+    printf("Is 'a' not equal to 'b'? %d\n", a != b);
+    printf("Is 'a' greater than 'b'? %d\n", a > b);
+    printf("Is 'a' less than 'b'? %d\n", a < b);
+    printf("Is 'a' greater than or equal to 'b'? %d\n", a >= b);
+    printf("Is 'a' less than or equal to 'b'? %d\n", a <= b);
 
 
-    // Assignment Operators : ('+=', '-=', '*=', '/=', '%=') Assign right operand to left operand
-    val = 0;
-    printf("%d\n", val);
+    // Assignment Operators: '+=', '-=', '*=', '/=', '%='
+    int c = 10;
+    c += 5; // Equivalent to: c = c + 5
+    printf("c += 5: %d\n", c);
 
-    // '+=' : Addition and Assignment Operator
-    val += 5; // val = val + 5 = 5
-    printf("%d\n", val);
+    c -= 2; // Equivalent to: c = c - 2
+    printf("c -= 2: %d\n", c);
 
-    // '-=' : Subtraction and Assignment Operator
-    val -= 2; // val = val - 2 = 3
-    printf("%d\n", val);
+    c *= 3; // Equivalent to: c = c * 3
+    printf("c *= 3: %d\n", c);
 
-    // '*=' : Multiplication and Assignment Operator
-    val *= 16; // val = val * 16 = 48
-    printf("%d\n", val);
+    c /= 2; // Equivalent to: c = c / 2
+    printf("c /= 2: %d\n", c);
 
-    // '/=' : Devision and Assignment Operator
-    val /= 10; // val = val / 10 = 4 (integer part of 4.8)
-    printf("%d\n", val);
-
-    // '%=' : Modulo and Assignment Operator
-    val %= 3; // val = val % 3 = 1
-    printf("%d\n", val);
+    c %= 3; // Equivalent to: c = c % 3
+    printf("c %%= 3: %d\n", c);
 
 
-    // Logical Operators : ('&&', '||', '!') used on more then one expressions
-    // '&&' : Logical and return 1 if both expressions are true
-    printf("%d\n", 2 < 5 && 12 >= 2);
-    printf("%d\n", 2 > 5 && 12 >= 2);
-    printf("%d\n", 2 < 5 && 12 == 2);
-    printf("%d\n", 2 > 5 && 12 == 2);
+    // Logical Operators: '&&', '||', '!'
+    int p = 1, q = 0;
+    int logical_and = p && q; // Logical AND: returns 1 if both 'p' and 'q' are non-zero
+    int logical_or = p || q; // Logical OR: returns 1 if either 'p' or 'q' is non-zero
+    int logical_not_p = !p; // Logical NOT: returns 1 if 'p' is zero, otherwise 0
 
-    // '||' : Logical or return 1 if any one expressions is true
-    printf("%d\n", 2 < 5 || 12 >= 2);
-    printf("%d\n", 2 > 5 || 12 >= 2);
-    printf("%d\n", 2 < 5 || 12 == 2);
-    printf("%d\n", 2 > 5 || 12 == 2);
-
-    // '!' : Logical not return 1 if expressions is false else 1
-    printf("%d\n", !1);
-    printf("%d\n", !0);
+    printf("Logical AND: %d\n", logical_and);
+    printf("Logical OR: %d\n", logical_or);
+    printf("Logical NOT (p): %d\n", logical_not_p);
 
 
-    // Bitwise Operators : perform operation on bits can only be worked on integers
-    int res;
-    // '&' : Bitwise and operator
-    /*
-        Bitwise and table :
-        0   &   0   =   0
-        0   &   1   =   0
-        1   &   1   =   1
-        1   &   0   =   0
-    */
-    res = 0 & 0; // in binary 4 = 0100, 3 = 0011    0100 & 0011 = 0000
-    printf("%d\n", res);
+    // Bitwise Operators: '&', '|', '^', '~', '<<', '>>'
+    int x = 5, y = 3;
+    int bitwise_and = x & y; // Bitwise AND: performs bitwise AND operation
+    int bitwise_or = x | y; // Bitwise OR: performs bitwise OR operation
+    int bitwise_xor = x ^ y; // Bitwise XOR: performs bitwise exclusive OR operation
+    int bitwise_not_x = ~x; // Bitwise NOT: performs bitwise NOT operation (complement)
+    int left_shift = x << 1; // Left Shift: shifts bits of 'x' to the left by 1 position
+    int right_shift = x >> 1; // Right Shift: shifts bits of 'x' to the right by 1 position
 
-    // '|' : Bitwise or operator
-    /*
-    Bitwise or table :
-    0   |   0   =   0
-    0   |   1   =   1
-    1   |   1   =   1
-    1   |   0   =   1
-*/
-    res = 4 | 3; // in binary 4 = 0100, 3 = 0011    0100 | 0011 = 0111 (7 in decimal)
-    printf("%d\n", res);
-
-    // '^' : Bitwise xor operator
-    /*
-    Bitwise xor table :
-    0   ^   0   =   0
-    0   ^   1   =   1
-    1   ^   1   =   0
-    1   ^   0   =   1
-    */
-    res = 4 ^ 3; // in binary 4 = 0100, 3 = 0011    0100 ^ 0011 = 0000
-    printf("%d\n", res);
+    printf("Bitwise AND: %d\n", bitwise_and);
+    printf("Bitwise OR: %d\n", bitwise_or);
+    printf("Bitwise XOR: %d\n", bitwise_xor);
+    printf("Bitwise NOT (x): %d\n", bitwise_not_x);
+    printf("Left Shift: %d\n", left_shift);
+    printf("Right Shift: %d\n", right_shift);
 
 
-    // '<<' : Bitwise left shift operator : left shift left operand bits by right operand
-    res = 4 << 3; // in binary 4 = 0100
-    // left Shifting bits by 3 bits
-    // |0|0|0|0|0|1|0|0| => |0|0|1|0|0|0|0|0| ( 00100000 in decimal : 32 )
-    printf("%d\n", res);
+    // Miscellaneous Operators: '?:', 'sizeof', '&', '*', ',', etc.
+    int m = 5, n = 10;
+    int max = (m > n) ? m : n; // Ternary Operator: returns the maximum of 'm' and 'n'
+    printf("Maximum: %d\n", max);
 
-    // '>>' : Bitwise right shift operator : right shift left operand bits by right operand
-    res = 7 >> 2; // in binary 7 = 0111
-    // Right Shifting bits by 2 bits
-    // |0|0|0|0|0|1|1|1| => |0|0|0|0|0|0|0|1| ( 00000001 in decimal : 1 )
-    printf("%d\n", res);
+    int size = sizeof(int); // sizeof Operator: returns the size of 'int' in bytes
+    printf("Size of int: %d bytes\n", size);
 
+    int *address = &m; // Address of Operator: returns the memory address of 'm'
+    printf("Address of m: %p\n", address);
 
-    // '~' : Bitwise not : return invert all bits ( 0 => 1 | 1 => 0 )
-    res = ~5; // 2 in Decimal : 10
-    // inverting all bits
-    // 0010 => 01 (01 in binary is 1)
+    int *ptr = &m; // Pointer: stores the memory address of 'm'
+    printf("Value of m through pointer: %d\n", *ptr);
 
-    printf("%d\n", res);
+    m = (2, 3, 4, 5, 0); // Comma Operator: evaluates multiple expressions and returns the last one
+    printf("Value of m using comma operator: %d\n", m); // Output: 0
 
-
-    // Misc operator : Miscellaneous operators used to 
-    int m;
-
-    // '?:' : ternary operator(operates on three operands) it is also an alternative for if-else condition) 
-    m = 1 > 2 ? 2 : 1; // if 1 is bigger then 2 then 2 is assigned else 1 
-    printf("%d \n", m);
-
-    // 'sizeof()' : Size of Operator : Returns the size of a variable in integer 
-    printf("%d \n", sizeof(m)); // this will print the memory size of integer in our system 
-
-    // '&' : Address of Operator : Returns the address of a variable 
-    printf("%p \n", &m); // this will print the address of integer variable 'm' 
-
-    // '*' : Pointer to a variable 
-    int *ptr = &m;
-    printf("%d \n", ptr);
-
-    // ',' : Comma operator : used to excute multiple expressions and assign last expressions value 
-    m = (2, 3, 4, 5, 0); // using comma operator 
-    printf("%d", m); // this will print 0 as 0 is the last value in above (2, 3, 4, 5, 0) 
-    // we have to use parenthesis () to use comma as operator 
 
     return 0;
 }

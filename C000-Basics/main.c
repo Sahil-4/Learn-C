@@ -1,19 +1,22 @@
 
-#include <stdio.h> // Preprocessor command to include Standard Input Output library
+#include <stdio.h> // Preprocessor command to include the Standard Input Output library
 
-// below is main function
+
+// This is the main function
 int main() {
-    // Every line starts with double forward slash is a comment
+    // Every line that starts with a double forward slash is a comment
     printf("Hello World"); // Statement to print "Hello World" to the output screen
-    // printf(""); is a fuction used to print text or numbers on output window
+    // printf(""); is a function used to print text or numbers on the output window
+
     return 0;
 }
 
-// How to execute or run this code :
-// make sure you have gcc compiler installed 
-// save main.c (Program file)
-// open terminal in same directory where you have stored your .c file
-// execute this command to compile your program => gcc filename.c -o filename
-// gcc main.c -o main
-// execute this command to run your program => ./filename
-// ./main
+
+// How to execute or run this code:
+// Make sure you have GCC compiler installed.
+// Save main.c (Program file).
+// Open the terminal in the same directory where you have stored your .c file.
+// Execute this command to compile your program: gcc filename.c -o filename
+// For example: gcc main.c -o main
+// Execute this command to run your program: ./filename
+// For example: ./main
