@@ -113,7 +113,7 @@ Thank you for visiting our C Programming notes project! We firmly believe that l
 
 - **Share Your Insights** : If you have valuable insights, tips, or tricks related to C programming, your contributions can make a real difference in someone's learning journey.
 
-- **Fix Errors and Improve**:  Found a mistake or want to improve existing content? Your keen eye for detail and passion for quality can help enhance the overall project.
+- **Fix Errors and Improve** : Found a mistake or want to improve existing content? Your keen eye for detail and passion for quality can help enhance the overall project.
 
 - **Add New Content** : Have an idea for new topics or examples? We welcome fresh content that expands the coverage of C language concepts.
 
@@ -121,11 +121,11 @@ Thank you for visiting our C Programming notes project! We firmly believe that l
 
 ## How to Contribute?
 
-1. **Fork the Repository** :  Start by forking this repository to your GitHub account.
+1. **Fork the Repository** : Start by forking this repository to your GitHub account.
 
-2. **Clone the Repository**  : Clone the forked repository to your local machine using `git clone git@github.com:Sahil-4/Learn-C.git`.
+2. **Clone the Repository** : Clone the forked repository to your local machine using `git clone git@github.com:Sahil-4/Learn-C.git`.
 
-3. **Make Changes**:   Create a new branch and make your desired changes in the project.
+3. **Make Changes** : Create a new branch and make your desired changes in the project.
 
 4. **Test Your Changes** : Test the changes thoroughly to ensure everything works as expected.
 
@@ -140,3 +140,27 @@ Thank you for visiting our C Programming notes project! We firmly believe that l
 Learning C programming is an enriching experience, and with your help, we can build a comprehensive resource that benefits learners of all levels. Together, let's make C programming more accessible and enjoyable for everyone.
 
 Happy coding! 🚀
+
+## Guidelines for Contribution
+
+Follow the below-given coding conventions while contributing to this project :
+
+1. **Indentation** : Use 4 spaces for indentation.
+
+2. **Function Names** : Use small snake case convention for all the functions. Example : `calculate_area()`
+
+3. **Variable Names** : Use camel case convention for all the variables. Example : `totalCount`
+
+4. **Constant Variables** : Use complete uppercase snake case letters for constant variables. Example : `MAX_LENGTH`
+
+5. **Braces** : Use the K&R style for placing braces. The opening brace should be on the same line as the function declaration, control statement, or loop, and the closing brace should be on a separate line.
+
+6. **Comments** : Use descriptive comments to explain code logic and algorithms. Comments should be clear, concise, and written in English.
+
+7. **File Naming** : Use meaningful names for files and avoid using special characters or spaces. Separate words with underscores. Example : `user_input_functions.c`
+
+8. **Code Readability** : Write code in a way that emphasizes readability and maintainability. Use appropriate spacing, indentation, and line breaks to enhance code clarity.
+
+9. **Testing** : Test your code thoroughly to ensure it works as expected in different scenarios.
+
+By following these conventions, we can maintain consistency and readability throughout the project, making it easier for everyone to contribute and understand the codebase.
