@@ -53,8 +53,10 @@
 ### C008-Function
 
 1. [functions.c](C008-Function/functions.c)
-2. [recursion.c](C008-Function/recursion.c)
-3. [exercise.c](C008-Function/exercise.c)
+2. [function-invocation.c](C008-Function/function-invocation.c)
+3. [variables_and_storage_classes.c](C008-Function/variables_and_storage_classes.c)
+4. [recursion.c](C008-Function/recursion.c)
+5. [exercise.c](C008-Function/exercise.c)
 
 ### C009-Pointers
 
@@ -102,8 +104,6 @@
 ### Projects
 
 1. [GuessGame.c](Projects/GuessGame.c)
-
-
 
 # Welcome Contributors to our C Programming Notes Project! 🎉
 
